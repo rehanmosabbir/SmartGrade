@@ -7,7 +7,7 @@ export default function Navbar() {
           <img className="h-[40px]" src={LWSLogo} alt="Lws" />
         </a>
 
-        <a className="px-5 py-2 bg-[#172227] rounded-[44px]" href="#">
+        <a className="px-5 py-2 bg-[#172227] rounded-[44px]" href="">
           Get Admission
         </a>
       </div>

@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 @layer components {
-  .animate-updown {
-    animation-name: animate-updownAnim;
+  .animate-up-down {
+    animation-name: animate-up-down-Anim;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
   }
 
-  @keyframes animate-updownAnim {
+  @keyframes animate-up-down-Anim {
     from {
       transform: translateY(-20px);
     }
