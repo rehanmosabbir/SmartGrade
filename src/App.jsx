@@ -1,5 +1,15 @@
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <p className=" text-3xl text-indigo-600">Hello World!</p>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
